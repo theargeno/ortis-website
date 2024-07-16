@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ортис - Ортопедический салон</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #0b5285;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0abab5;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #0b5285;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .about, .contact {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #0b5285;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ортис</h1>
+        <p>Ортопедический салон</p>
+    </header>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Добро пожаловать в Ортис</h2>
+        <p>Мы предлагаем индивидуальные ортопедические стельки, лечебный массаж и консультации врача-ортопеда.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>О нас</h2>
+        <p>Наш салон был открыт 8 сентября 2020 года. Мы стремимся стать номером один в Кыргызстане, предоставляя качественные услуги и продукцию для здоровья опорно-двигательной системы.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Наши услуги</h2>
+        <ul>
+            <li>Индивидуальные ортопедические стельки</li>
+            <li>Лечебный массаж</li>
+            <li>Консультации врача-ортопеда</li>
+            <li>Товары для спортсменов</li>
+            <li>Специализированные средства для людей с хроническими заболеваниями опорно-двигательной системы</li>
+        </ul>
+    </div>
+    <div class="container" id="contact">
+        <h2>Контакты</h2>
+        <p>Адрес: Ваш адрес</p>
+        <p>Телефон: Ваш телефон</p>
+        <p>Email: Ваш email</p>
+    </div>
+    <footer>
+        <p>Ортис © 2024</p>
+    </footer>
+</body>
+</html>
